@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(53, 51, 51);
+}
+
+header {
+    background-image: url("./Photos/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-area {
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.hero-title {
+    padding: 40px 0px;
+}
+
+.hero-title h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.hero-title h2 {
+    font-weight: bolder;
+    padding: 20px 0px;
+}
+
+.hero-title p {
+    margin: 0px 250px;
+}
+
+.hero-button a {
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 10%;
+    margin: 15px;
+    font-size: 19px;
+}
+
+
+/*  A few words about style start */
+
+.few_words {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    padding: 70px 80px;
+}
+
+.few_words_image img {
+    width: 90%;
+}
+
+.few_words_title h1 {
+    font-size: 45px;
+}
+
+.few_words_title h3 {
+    margin: 15px 0px;
+}
+
+.few_words_title p {
+    padding-right: 100px;
+    line-height: 29px;
+}
+
+
+/*  A few words about style end */
+
+.cards {
+    padding: 0px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards .item {
+    background-color: rgb(232, 236, 236);
+    margin: 0px 10px;
+    padding: 49px;
+}
+
+.item .icon i {
+    font-size: 40px;
+    color: green;
+}
+
+.item_title h1 {
+    padding: 15px 0px;
+}
+
+
+/* without rules start  */
+
+.English_without {
+    margin: 50px 80px;
+}
+
+.English_without h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.rolls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.rolls_items {
+    box-shadow: 0px 0px 4px -2px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.rolls_items img {
+    width: 100%;
+}
+
+
+/* without rules end  */
+
+
+/* counting style start  */
+
+.counting {
+    margin: 50px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.few_more {
+    background-color: rgb(38, 165, 197);
+}
+
+.few_more_card,
+.students_cnt {
+    padding: 40px;
+}
+
+.few_more_card h1 {
+    padding: 15px 0px;
+}
+
+.few_more_image img {
+    width: 90%;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.options h1 {
+    font-size: 40px;
+    color: rgb(118, 39, 223);
+}
+
+.options h4 {
+    padding: 25px 0px;
+    font-weight: 500;
+}
+
+
+/* counting style end  */
+
+
+/* service lists style start */
+
+.service-ha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.service-lists {
+    margin: 50px 80px;
+    background-color: rgb(232, 236, 235);
+}
+
+.Web_development,
+.Information_technology,
+.Web_design {
+    padding: 40px;
+}
+
+.Web_development li {
+    padding: 7px 0px;
+}
+
+.Information_technology li {
+    padding: 7px 0px;
+}
+
+.Web_design li {
+    padding: 7px 0px;
+}
+
+
+/* service lists style end */
+
+.meet_out_team {
+    margin: 50px 80px;
+}
+
+.meet_out_team h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.team_members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.member {
+    text-align: center;
+    padding: 30px;
+    box-shadow: -4px -1px 24px -13px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -4px -1px 24px -13px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -4px -1px 24px -13px rgba(0, 0, 0, 0.6);
+}
+
+.member span {
+    font-size: 30px;
+}
+
+.member_image img {
+    border-radius: 50%;
+    border: 2px solid rgb(122, 27, 211);
+}
+
+.social_icon i {
+    padding: 20px 7px;
+    font-size: 25px;
+}

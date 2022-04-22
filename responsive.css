@@ -1,0 +1,110 @@
+@media only screen and (max-width: 600px) {
+    .hero-area {
+        padding-top: 10px;
+    }
+    .hero-title {
+        padding: 30px 0px;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .hero-title p {
+        margin: 0px 30px;
+    }
+    .hero-button a {
+        padding: 10px 15px;
+        text-decoration: none;
+        background-color: yellow;
+        border-radius: 10%;
+        margin: 0px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    /*  A few words about style start */
+    .few_words {
+        grid-template-columns: 1fr;
+        padding: 20px 30px;
+    }
+    .few_words_image img {
+        width: 100%;
+    }
+    .few_words_title p {
+        padding-right: 0px;
+    }
+    /*  A few words about style end */
+    /* cards */
+    .cards {
+        padding: 0px 25px;
+        grid-template-columns: 1fr;
+    }
+    .cards .item {
+        background-color: rgb(232, 236, 236);
+        margin: 10px 0px;
+    }
+    /* without rules start  */
+    .English_without {
+        margin: 20px 25px;
+    }
+    .rolls {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    /* without rules end  */
+    /* counting style start  */
+    .counting {
+        margin: 50px 25px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .few_more {
+        background-color: rgb(38, 165, 197);
+    }
+    .few_more_card,
+    .students_cnt {
+        padding: 40px;
+    }
+    .few_more_card h1 {
+        padding: 15px 0px;
+    }
+    .few_more_image img {
+        width: 90%;
+    }
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .options h1 {
+        font-size: 40px;
+        color: rgb(118, 39, 223);
+    }
+    .options h4 {
+        padding: 25px 0px;
+        font-weight: 500;
+    }
+    /* counting style end  */
+    /* service lists style start */
+    .service-ha {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .service-lists {
+        margin: 10px 25px;
+        background-color: rgb(232, 236, 235);
+    }
+    .Web_development,
+    .Information_technology,
+    .Web_design {
+        padding: 40px;
+    }
+    /* service lists style end */
+    /* service lists style end */
+    .meet_out_team {
+        margin: 50px 25px;
+    }
+    .team_members {
+        grid-template-columns: 1fr;
+    }
+}
