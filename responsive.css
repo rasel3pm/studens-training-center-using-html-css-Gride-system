@@ -107,4 +107,14 @@
     .team_members {
         grid-template-columns: 1fr;
     }
+    /* galary style start  */
+    .galary {
+        margin: 50px 25px;
+    }
+    .photos {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: "A A A B B" "E E E D D D";
+        gap: 10px;
+    }
+    /* galary style end  */
 }
