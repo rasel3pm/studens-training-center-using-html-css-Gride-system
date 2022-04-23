@@ -50,7 +50,8 @@ header {
 .hero-button a {
     padding: 15px 20px;
     text-decoration: none;
-    background-color: yellow;
+    background-color: #f39c12;
+    color: white;
     border-radius: 10%;
     margin: 15px;
     font-size: 19px;
@@ -94,14 +95,14 @@ header {
 }
 
 .cards .item {
-    background-color: rgb(232, 236, 236);
+    background-color: #ecf0f1;
     margin: 0px 10px;
     padding: 49px;
 }
 
 .item .icon i {
     font-size: 40px;
-    color: green;
+    color: #f39c12;
 }
 
 .item_title h1 {
@@ -151,7 +152,7 @@ header {
 }
 
 .few_more {
-    background-color: rgb(38, 165, 197);
+    background-color: #5352ed;
 }
 
 .few_more_card,
@@ -161,6 +162,7 @@ header {
 
 .few_more_card h1 {
     padding: 15px 0px;
+    color: white;
 }
 
 .few_more_image img {
@@ -175,7 +177,7 @@ header {
 
 .options h1 {
     font-size: 40px;
-    color: rgb(118, 39, 223);
+    color: #5352ed;
 }
 
 .options h4 {
