@@ -329,3 +329,50 @@ header {
 
 
 /* galary style end  */
+
+
+/* Contact section style start */
+
+#contact {
+    background-color: #ecf0f1;
+    padding: 20px 0px;
+}
+
+.contact-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 80px 80px;
+}
+
+.form [type="text"],
+[type="email"] {
+    width: 100%;
+    height: 45px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form [type="submit"] {
+    padding: 10px 30px;
+    background-color: #f39c12;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.form [type="submit"]:hover {
+    background-color: #cf8712;
+}

@@ -117,4 +117,17 @@
         gap: 10px;
     }
     /* galary style end  */
+    /* Contact section */
+    #contact {
+        background-color: #ecf0f1;
+        padding: 30px 0px;
+    }
+    .contact-area {
+        grid-template-columns: 1fr;
+        margin: 0px 25px;
+    }
+    .form [type="submit"] {
+        padding: 7px 25px;
+        font-size: 17px;
+    }
 }
